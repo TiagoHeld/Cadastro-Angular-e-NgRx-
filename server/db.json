@@ -1,0 +1,32 @@
+{
+   "foods": [
+    {
+        "id":1,
+        "name": "Arroz",
+        "description":"Branquinho como a neve",
+        "color":"White",
+        "group":"Alimenos"
+    },
+    {
+        "id":2,
+        "name": "Feijão",
+        "description":"Não pode faltar",
+        "color":"Marrom",
+        "group":"Alimenos"
+    },
+    {
+        "id":3,
+        "name": "Carne",
+        "description":"Gostosa demais",
+        "color":"Vermelha",
+        "group":"Alimenos"
+    },
+    {
+        "id":4,
+        "name": "Salada",
+        "description":"Essencial",
+        "color":"Verde",
+        "group":"Alimenos"
+    }
+   ]
+}
