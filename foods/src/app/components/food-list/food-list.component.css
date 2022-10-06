@@ -1,0 +1,15 @@
+.food-list {
+    margin: 0 auto;
+    width: 600px
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.food-list p{
+    background-color: dimgrey;
+    padding: 6px;
+    color: white;
+}

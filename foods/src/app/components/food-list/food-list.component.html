@@ -1,0 +1,6 @@
+<h2>List of foods: {{ (foods | async)?.length }}</h2>
+
+<div class="food-list" *ngFor = "let food of foods | async ">
+    <p>{{food.name}} = {{food.color}} <a href="#" (click)="deleteFood(food)">This isnt a real food</a></p>
+
+</div>

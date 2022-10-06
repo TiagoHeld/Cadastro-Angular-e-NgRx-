@@ -1,0 +1,10 @@
+<form class="formulario">
+    <h2>Add a new food</h2>
+    <p>id:<input name="id" [(ngModel)]="food.id" type="text"/> </p>
+    <p>name:<input name="name" [(ngModel)]="food.name" type="text"/> </p>
+    <p>description:<input name="description" [(ngModel)]="food.description" type="text"/> </p>
+    <p>color:<input name="color" [(ngModel)]="food.color" type="text"/> </p>
+    <p>group:<input name="group" [(ngModel)]="food.group" type="text"/> </p>
+    <button (click)="addFood(food)">Add food</button>
+
+</form>
